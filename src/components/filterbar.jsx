@@ -10,12 +10,8 @@ const FilterBar = ({
     "Coding",
     "Daily Help",
     "Productivity",
-    "Creativity",
     "Business",
-    "Education",
-    "Health & Wellness",
-    "Technology",
-    "Relationships" , 
+     
     "Favorites"
   ];
 
