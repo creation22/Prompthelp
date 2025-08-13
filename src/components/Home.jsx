@@ -1,10 +1,15 @@
 import React from 'react';
 
 const Home = () => {
-  const handleBrowsePromptsClick = () => {
     // Scroll to prompts section when implemented
-    console.log('Browse prompts clicked');
+
+  const handleBrowsePromptsClick = () => {
+    const element = document.getElementById('prompts');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
+  
 
   const handleCreateExploreClick = () => {
     // Navigate to create/explore section when implemented
