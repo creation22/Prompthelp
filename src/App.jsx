@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import FilterBar from './components/filterbar'
 import PromptsPage from './prompts/PromptsPage'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <Navbar/>
     <Home/>
     <PromptsPage/>
+    <Footer/>
     </>
   )
 }
