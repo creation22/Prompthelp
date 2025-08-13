@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-4 mr-8">
             {/* Twitter Icon */}
             <a
-              href="#"
+              href="https://x.com/_Creation22"
               className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
               aria-label="Twitter"
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
 
             {/* GitHub Icon */}
             <a
-              href="#"
+              href="https://github.com/creation22/Prompthelp"
               className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
               aria-label="GitHub"
             >
@@ -109,7 +109,7 @@ const Navbar = () => {
               {/* Mobile Social Icons */}
               <div className="flex justify-center space-x-4 py-4">
                 <a
-                  href="#"
+                  href="https://x.com/_Creation22"
                   className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
                   aria-label="Twitter"
                 >
@@ -123,7 +123,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="#"
+                  href="https://github.com/creation22/Prompthelp"
                   className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
                   aria-label="GitHub"
                 >
