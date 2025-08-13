@@ -13,7 +13,7 @@ export default function Navbar() {
               alt="PromptHelp Logo"
               className="h-10 w-auto" // bigger logo
             />
-            <span className="text-2xl font-extrabold text-gray-900">
+            <span className="text-2xl font-cursive font-bold text-gray-900">
               PromptHelp
             </span>
           </div>
