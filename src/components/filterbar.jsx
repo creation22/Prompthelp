@@ -6,10 +6,16 @@ const FilterBar = ({
 }) => {
   const categories = [
     "All",
-    "Personalities", 
+    "Personalities",
     "Coding",
-    "Productivity",
     "Daily Help",
+    "Productivity",
+    "Creativity",
+    "Business",
+    "Education",
+    "Health & Wellness",
+    "Technology",
+    "Relationships" , 
     "Favorites"
   ];
 
