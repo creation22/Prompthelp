@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+/* Custom font classes */
+.font-cursive {
+  font-family: 'Edu NSW ACT Cursive', cursive;
+}
+
+.font-sans {
+  font-family: 'Libertinus Sans', sans-serif;
+}
+
+/* Apply fonts globally */
+body {
+  font-family: 'Libertinus Sans', sans-serif;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Edu NSW ACT Cursive', cursive;
+}

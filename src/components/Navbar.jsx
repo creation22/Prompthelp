@@ -8,14 +8,14 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="backdrop-blur-md bg-white/30 shadow-lg border-b border-white/20 sticky top-0 z-50">
+    <nav className="backdrop-blur-md bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand */}
           <div className="flex items-center ml-8">
             <div className="flex items-center space-x-2">
               {/* Icon */}
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-r from-gray-900 to-gray-700 rounded-lg flex items-center justify-center">
                 <svg
                   className="w-5 h-5 text-white"
                   fill="none"
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </svg>
               </div>
               {/* Text */}
-              <h1 className="text-2xl font-extrabold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent font-['Inter'] tracking-tight">
+              <h1 className="text-2xl font-extrabold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent font-['Inter'] tracking-tight">
                 PromptHelp
               </h1>
             </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
               aria-label="Twitter"
             >
               <svg
-                className="w-5 h-5 text-gray-700 hover:text-blue-500 transition-colors duration-200"
+                className="w-5 h-5 text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -57,7 +57,7 @@ const Navbar = () => {
             {/* GitHub Icon */}
             <a
               href="#"
-              className="p-2 rounded-full bg-white/20 hover:bg-white/30 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
+              className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-300 hover:scale-110 backdrop-blur-sm"
               aria-label="GitHub"
             >
               <svg
@@ -105,7 +105,7 @@ const Navbar = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-white/20 backdrop-blur-md bg-white/10 rounded-b-lg">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200 backdrop-blur-md bg-white rounded-b-lg">
               {/* Mobile Social Icons */}
               <div className="flex justify-center space-x-4 py-4">
                 <a
@@ -114,7 +114,7 @@ const Navbar = () => {
                   aria-label="Twitter"
                 >
                   <svg
-                    className="w-5 h-5 text-gray-700 hover:text-blue-500 transition-colors duration-200"
+                    className="w-5 h-5 text-white hover:text-blue-300 transition-colors duration-200"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -128,7 +128,7 @@ const Navbar = () => {
                   aria-label="GitHub"
                 >
                   <svg
-                    className="w-5 h-5 text-gray-700 hover:text-gray-900 transition-colors duration-200"
+                    className="w-5 h-5 text-white hover:text-gray-200 transition-colors duration-200"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >

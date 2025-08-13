@@ -22,11 +22,11 @@ const FilterBar = ({
             <button
               key={category}
               onClick={() => setSelectedCategory(category)}
-              className={`px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 ${
-                selectedCategory === category
-                  ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white'
-                  : 'bg-white/70 border-2 border-gray-200 text-gray-700 hover:bg-white hover:border-indigo-300'
-              }`}
+                             className={`px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 ${
+                 selectedCategory === category
+                   ? 'bg-gray-900 text-white'
+                   : 'bg-white border-2 border-gray-200 text-gray-700 hover:bg-gray-50 hover:border-gray-300'
+               }`}
             >
               {category}
             </button>
