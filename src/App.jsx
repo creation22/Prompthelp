@@ -8,12 +8,14 @@ import FilterBar from './components/filterbar'
 import PromptsPage from './prompts/PromptsPage'
 import Footer from './components/Footer'
 import SupportButton from './components/Payment'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   
 
   return (
     <>
+    <Analytics/>
     <Navbar/>
     <Home/>
     <PromptsPage/>
