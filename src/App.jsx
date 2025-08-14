@@ -7,6 +7,7 @@ import Home from './components/Home'
 import FilterBar from './components/filterbar'
 import PromptsPage from './prompts/PromptsPage'
 import Footer from './components/Footer'
+import SupportButton from './components/Payment'
 
 function App() {
   
@@ -17,6 +18,14 @@ function App() {
     <Home/>
     <PromptsPage/>
     <Footer/>
+    <SupportButton
+    theme="light"
+    upiId="srajangupta220@okhdfc"
+    payeeName="Srajan Gupta"
+    upiMsg="Keep the project alive 💖"
+    buyMeCoffeeUrl="https://buymeacoffee.com/creation22"
+    />
+
     </>
   )
 }
