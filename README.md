@@ -60,9 +60,6 @@ npm run dev
 yarn dev
 ```
 
-4. Open your browser at `http://localhost:5173` (or the port Vite provides).
-
----
 
 
 ## **Usage**
@@ -84,6 +81,14 @@ Contributions are welcome!
 5. Open a Pull Request
 
 ---
+## Support Me ☕  
+
+If you enjoy using **PromptHelp** and want to support its development, consider buying me a coffee! Your support helps me keep improving the app and adding new features.
+
+<a href="https://buymeacoffee.com/creation22" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" width="100" />
+</a>
+
 
 ## **License**
 
